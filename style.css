@@ -104,9 +104,36 @@ img {
     width: 300px;
 }
 
-.random-info {
+.section-2 {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
 
+.random-info-top {
+    font: 20px;
+    font-weight: 800;
+    font-family: 'proxima nova', sans-serif;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
 
+}
+
+.random-info-bot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: auto;
+    height: 500px;
+}
+
+.info-1, .info-2, .info-3, .info-4 {
+    border: 3px solid #3882F6;
+    border-radius: 4px;
+    width: 150px;
+    height: 150px;
 }
 
 .testimonials {
