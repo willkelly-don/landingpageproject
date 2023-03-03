@@ -1,3 +1,10 @@
+body {
+    height: 100%;
+    margin: 0;
+}
+
+
+
 .container {
     display: flex;
     flex-direction: column;
@@ -8,9 +15,35 @@
 .header {
     background-color: #1f2937;
     width:auto;
-    height: 500px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    
+}
+
+.logo {
+    display: flex;
+    font-size: 24px;
+    font-weight: 600;
+    color: #F9FAF8;
+    font-family: 'proxima nova', sans-serif;
+    padding-left: 300px;
 
 }
+
+ul {
+    display: flex;
+    color:#F9FAF8;
+    font-family: 'proxima nova', sans-serif;
+    margin: 0;
+    gap: 14px;
+    list-style-type: none;
+    padding-right: 300px;
+}
+
+
 
 .hero {
 
