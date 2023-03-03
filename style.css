@@ -111,13 +111,13 @@ img {
 }
 
 .random-info-top {
-    font: 20px;
-    font-weight: 800;
+    font-size: 36px;
     font-family: 'proxima nova', sans-serif;
+    font-weight: 900;
     color: #1f2937;
     display: flex;
     justify-content: center;
-    padding: 50px;
+    padding: 20px;
 
 }
 
@@ -126,7 +126,7 @@ img {
     flex-direction: row;
     justify-content: center;
     width: auto;
-    height: 500px;
+    height: auto;
     gap: 100px;
 }
 
@@ -155,7 +155,34 @@ img {
 }
 
 .testimonials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 90px 30px;
+    flex-direction: column;
+}
 
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    font-family: 'proxima nova', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 900px;
+    
+}
+
+.quote-name {
+    font-size: 12x;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    font-family: 'proxima nova', sans-serif;
+    text-align: right ;
 
 }
 
