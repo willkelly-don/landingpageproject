@@ -14,11 +14,9 @@ body {
 
 .header {
     background-color: #1f2937;
-    width:auto;
-    height: auto;
     display: flex;
+    justify-content: space-around;
     align-items: center;
-    justify-content: space-between;
     padding: 16px;
     
 }
@@ -29,25 +27,81 @@ body {
     font-weight: 600;
     color: #F9FAF8;
     font-family: 'proxima nova', sans-serif;
-    padding-left: 300px;
-
 }
-
+    
 ul {
     display: flex;
     color:#F9FAF8;
     font-family: 'proxima nova', sans-serif;
     margin: 0;
-    gap: 14px;
+    padding: 0;
     list-style-type: none;
-    padding-right: 300px;
+    gap: 25px;
 }
 
 
 
 .hero {
+    display: flex;
+    padding: 30px;
+    background-color: #1f2937;
+    justify-content: center;
+    align-self: center;
+    width: auto;
+    height: auto;
+    padding-top: 50px;
+    gap: 200px;
+}
 
+.hero-text {
+    width: 400px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
 
+h1 {
+    font-size: 48px;
+    font-weight: 800;
+    color:#F9FAF8;
+    font-family: 'proxima nova', sans-serif;
+    margin: 0;
+
+}
+
+p {
+    font-size: 18px;
+    color: #e5e7eb;
+    font-family: 'proxima nova', sans-serif;
+    margin: 0;
+}
+
+button {
+    align-self: flex-start;
+    margin-top: 10px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 6px;
+    border: none;
+    width: 8em;
+    height: 2.5em;
+}
+
+.hero-image {
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 300px;
+    width: 300px;
 }
 
 .random-info {
