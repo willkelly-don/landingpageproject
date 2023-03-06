@@ -108,6 +108,7 @@ img {
     display: flex;
     flex-direction: column;
     background-color: white;
+    padding-bottom: 100px;
 }
 
 .random-info-top {
@@ -117,7 +118,7 @@ img {
     color: #1f2937;
     display: flex;
     justify-content: center;
-    padding: 20px;
+    padding: 50px;
 
 }
 
@@ -157,19 +158,19 @@ img {
 .testimonials {
     display: flex;
     justify-content: center;
-    align-items: center;
     background-color: #e5e7eb;
-    padding: 90px 30px;
+    padding: 100px 30px;
     flex-direction: column;
 }
 
 .quote {
     font-size: 36px;
     font-style: italic;
-    font-weight: lighter;
+    font-weight: 300;
     color: #1f2937;
     font-family: 'proxima nova', sans-serif;
     display: flex;
+    align-self: center;
     justify-content: center;
     align-items: center;
     max-width: 900px;
@@ -177,12 +178,13 @@ img {
 }
 
 .quote-name {
-    font-size: 12x;
-    font-style: italic;
-    font-weight: lighter;
+    display: flex;
+    font-size: 24px;
+    font-weight: 800;
     color: #1f2937;
     font-family: 'proxima nova', sans-serif;
-    text-align: right ;
+    justify-content: center;
+    padding-left: 500px;
 
 }
 
