@@ -226,6 +226,17 @@ h2 {
 }
 
 .footer {
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #1f2937;
+height: 100px;
+width: auto;
 
+}
+
+.footer-content {
+    font-family: 'proxima nova', sans-serif;
+    color:#F9FAF8;
 
 }
