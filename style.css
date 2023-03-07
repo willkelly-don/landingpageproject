@@ -189,8 +189,40 @@ img {
 }
 
 .call-to-action {
+display: flex;
+justify-content: center;
+padding: 100px;
+}
+
+.cta-text {
+    font-family: 'proxima nova', sans-serif;
+    color: #F9FAF8;
+}
+
+h2 {
+    margin-bottom: 0;
+}
 
 
+.cta-container {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    height: 100px;
+    width: 1000px;
+    background-color: #3882F6;
+    border-radius: 16px;
+}
+
+.cta-button {
+    display: flex;
+}
+
+#button-2 {
+    border: solid white 2px;
+    border-radius: 5px;
+    align-self: center;
+    margin: 0;
 }
 
 .footer {
